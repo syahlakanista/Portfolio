@@ -125,7 +125,7 @@ const WelcomeScreen = ({ onLoadingComplete }) => {
                 className="text-center mb-6 sm:mb-8 md:mb-12"
                 variants={childVariants}
               >
-                <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold space-y-2 sm:space-y-4">
+                <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold leading-[1.2] space-y-2 sm:space-y-4">
                   <div className="mb-2 sm:mb-4">
                     <span
                       data-aos="fade-right"
@@ -153,14 +153,28 @@ const WelcomeScreen = ({ onLoadingComplete }) => {
                     <span
                       data-aos="fade-up"
                       data-aos-delay="800"
-                      className="inline-block px-2 bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent"
+                      className="
+    inline-flex items-end
+    px-2
+    pb-[0.2em]
+    leading-[1.15]
+    bg-gradient-to-r from-indigo-600 to-purple-600
+    bg-clip-text text-transparent
+  "
                     >
                       Digital
                     </span>{" "}
                     <span
                       data-aos="fade-up"
                       data-aos-delay="1000"
-                      className="inline-block px-2 bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent"
+                      className="
+    inline-flex items-end
+    px-2
+    pb-[0.2em]
+    leading-[1.15]
+    bg-gradient-to-r from-indigo-600 to-purple-600
+    bg-clip-text text-transparent
+  "
                     >
                       Portfolio
                     </span>
